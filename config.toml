@@ -1,4 +1,5 @@
 [frontmatter]
-date = ["lastmod", "date", ":filename"]
+date = [ ":filename", ":default" ]
+publishDate = [ ":filename", ":default" ]
 [permalinks]
 blog = "blog/:slug/"
